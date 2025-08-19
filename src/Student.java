@@ -7,12 +7,19 @@ public class Student {
     }
     Student(int r,String n)
     {
+        int x=12;
         roll_no=r;
         name=n;
+    }
+    Student(Student s)
+    {
+        roll_no=s.roll_no;
+        name=s.name;
     }
     public void display()
     {
         System.out.println("Roll No"+roll_no);
         System.out.println("Name is "+name);
+        int y=123;
     }
 }
