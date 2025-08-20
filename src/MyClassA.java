@@ -1,8 +1,7 @@
 public class MyClassA {
 
     public static void main(String[] args) {
-        B obj=new B();
+        A.B obj=new A.B();
         obj.display();
-        obj.display("Abhishek");
     }
 }

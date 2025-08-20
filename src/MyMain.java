@@ -1,6 +1,7 @@
 public class MyMain {
     public static void main(String[] args) {
-        Student s1=new Student(12,"Abhishek");
-        Student s2=new Student(s1);
+CollegeStudent cs=new CollegeStudent("Abhi",12);
+cs.attend_class();
+cs.give_exam();
     }
 }
