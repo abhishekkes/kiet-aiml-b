@@ -1,6 +1,9 @@
 public class A {
-    public void display(String x)
+    public static class B
+    {
+        public void display()
         {
-            System.out.println("I am in class A"+x);
+            System.out.println("I am in nested class B");
         }
+    }
 }
