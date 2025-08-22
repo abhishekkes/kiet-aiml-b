@@ -1,17 +1,25 @@
-public class Student
-{
-    private String grade;
-    public int roll_no;
-    public String name;
-    public Student(String grade, int roll_no, String name) {
-        this.grade = grade;
-        this.roll_no = roll_no;
-        this.name = name;
+public class Student {
+    int roll_no;
+    String name;
+    Student()
+    {
+        System.out.println("I am default Const");
     }
-    public String getGrade() {
-        return grade;
+    Student(int r,String n)
+    {
+        int x=12;
+        roll_no=r;
+        name=n;
     }
-    public void setGrade(String grade) {
-        this.grade = grade;
+    Student(Student s)
+    {
+        roll_no=s.roll_no;
+        name=s.name;
+    }
+    public void display()
+    {
+        System.out.println("Roll No"+roll_no);
+        System.out.println("Name is "+name);
+        int y=123;
     }
 }
