@@ -1,3 +1,5 @@
+package Unit1;
+
 public class SchoolStudent extends Person {
     public String course;
 
